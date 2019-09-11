@@ -14,7 +14,7 @@
     }],
     "require": {
         "php": "^7.1",
-        "dingo/blueprint": "^0.2",
+        "dingo/blueprint": "dev-laravel-6",
         "illuminate/routing": "^5.5 || ^6.0",
         "illuminate/support": "^5.5 || ^6.0",
         "league/fractal": "^0.17"
@@ -36,6 +36,10 @@
         "squizlabs/php_codesniffer": "~2.0",
         "tymon/jwt-auth": "1.0.*"
     },
+    "repositories": [{
+        "type": "vcs",
+        "url": "https://github.com/mycarrysun/blueprint.git"
+    }],
     "suggest": {
         "tymon/jwt-auth": "Protect your API with JSON Web Tokens."
     },
